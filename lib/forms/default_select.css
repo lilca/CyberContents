@@ -1,0 +1,19 @@
+.default_select {
+	display				: block;
+	position			: absolute;
+	width				: 100%;
+	height				: 10px;
+	-webkit-appearance	: none;
+	appearance			: none;
+}
+.default_select[direction="horizontal"] {
+	float				: left;
+	height				: 100%;
+}
+.default_select[direction="horizontal"]:after {
+	float				: none;
+}
+.default_select[direction="vartical"] {
+	float				: none;
+	width				: 100%;
+}

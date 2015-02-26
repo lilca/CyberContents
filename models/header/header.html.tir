@@ -1,0 +1,25 @@
+<!-- Header -->
+<pane fill='on'>
+	<xbox size='294px'>
+		<ark aspect='5.88'>
+			<img src='data:image/png;base64,<!--[tir:begin] ref="../../resources/images/victoryroad_logo.png" convert="base64"[tir:end]-->'/>
+		</ark>
+	</xbox>
+	<xbox size='rest'>
+		<xbox size='rest'></xbox>
+		<xbox><cell><ele>[　</ele></cell></xbox>
+		<xbox>
+			<cell>
+				<ele>luci_lectric999@gmail.com</ele>
+			</cell>
+		</xbox>
+		<xbox><cell><ele>　|　</ele></cell></xbox>
+		<xbox>
+			<cell>
+				<ele>サインイン</ele>
+			</cell>
+		</xbox>
+		<xbox><cell><ele>　]</ele></cell></xbox>
+		<xbox size='20'></xbox>
+	</xbox>
+</pane>

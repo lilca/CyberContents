@@ -1,0 +1,51 @@
+cell {
+	display 				: table;
+	width				: 100%;
+	height				: 100%;
+}
+
+cell[surface="round"] {
+	border-radius			: 12px 12px 12px 12px;
+	border				: 1px solid /*[tir:begin] ref="#[css.border.color]main" [tir:end]*/;
+	background			: -webkit-gradient(linear, left top, left bottom, from(/*[tir:begin] ref="#[css.background.color]gradation-high" [tir:end]*/), to(/*[tir:begin] ref="#[css.background.color]gradation-low" [tir:end]*/));
+	background			: linear-gradient(/*[tir:begin] ref="#[css.background.color]gradation-high" [tir:end]*/, /*[tir:begin] ref="#[css.background.color]gradation-low" [tir:end]*/);
+}
+
+cell[surface="rectangle"] {
+	border				: 1px solid rgba(255,165,0,1);
+	background			: -webkit-gradient(linear, left top, left bottom, from(/*[tir:begin] ref="#[css.background.color]gradation-high" [tir:end]*/), to(/*[tir:begin] ref="#[css.background.color]gradation-low" [tir:end]*/));
+	background			: linear-gradient(/*[tir:begin] ref="#[css.background.color]gradation-high" [tir:end]*/, /*[tir:begin] ref="#[css.background.color]gradation-low" [tir:end]*/);
+}
+
+cell[switch="on"] {
+	background			: -webkit-gradient(linear, left top, left bottom, from(/*[tir:begin] ref="#[css.background.color]gradation-high" [tir:end]*/), to(/*[tir:begin] ref="#[css.background.color]gradation-low" [tir:end]*/));
+	background			: linear-gradient(/*[tir:begin] ref="#[css.background.color]gradation-high" [tir:end]*/, /*[tir:begin] ref="#[css.background.color]gradation-low" [tir:end]*/);	
+}
+
+cell[tension='vertical'] {
+	height				: 100%;
+}
+
+cell[tension='horizontal'] {
+	width				: 100%;
+}
+
+cell[tension='both'] {
+	width				: 100%;
+	height				: 100%;
+}
+
+cell[horizontal="center"] {
+	margin-left			: auto;
+	margin-right			: auto;
+}
+
+cell[horizontal="left"] {
+	margin-left			: 0;
+	margin-right			: auto;
+}
+
+cell[horizontal="right"] {
+	margin-left			: auto;
+	margin-right			: 0;
+}

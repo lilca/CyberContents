@@ -1,0 +1,30 @@
+ele {
+	display				: table-cell;
+	vertical-align			: middle;
+	text-align			: center;
+	opacity				: 1.0;
+}
+
+ele[vertical="middle"] {
+	vertical-align			: middle;
+}
+
+ele[vertical="top"] {
+	vertical-align			: top;
+}
+
+ele[vertical="bottom"] {
+	vertical-align			: bottom;
+}
+
+ele[horizontal="center"] {
+	text-align			: center;
+}
+
+ele[horizontal="left"] {
+	text-align			: left;
+}
+
+ele[horizontal="right"] {
+	text-align			: right;
+}

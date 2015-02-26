@@ -1,0 +1,29 @@
+function js_turn_switch_class(id){
+	var ele = window.document.getElementById(id);
+	if( ele.getAttribute('switch') == 'on' )
+		ele.setAttribute('switch', '');
+	else
+		ele.setAttribute('switch', 'on');
+}
+function js_switch_on_other_off_class(id, ids){
+	var ele = window.document.getElementById(id);
+	ele.setAttribute('switch', 'on');
+	for(var idx=0; idx<ids.length; idx=idx+1){
+		ele = window.document.getElementById(ids[idx]);
+		ele.setAttribute('switch', '');
+	}
+}
+function js_invisible_off_other_on_class(id, ids){
+	var ele = window.document.getElementById(id);
+	ele.setAttribute('invisible', '');
+	for(var idx=0; idx<ids.length; idx=idx+1){
+		ele = window.document.getElementById(ids[idx]);
+		ele.setAttribute('invisible', 'on');
+	}
+}
+
+/*[tir:begin] ref="xbox/xbox.js" [tir:end]*/
+/*[tir:begin] ref="ybox/ybox.js" [tir:end]*/
+/*[tir:begin] ref="ark/ark.js" [tir:end]*/
+/*[tir:begin] ref="slide/slide.js" [tir:end]*/
+/*[tir:begin] ref="cell/cell.js" [tir:end]*/

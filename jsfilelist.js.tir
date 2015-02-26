@@ -1,0 +1,3 @@
+/*[tir:begin] ref="./main.js" [tir:end]*/
+/*[tir:begin] ref="./lib/_common.js" [tir:end]*/
+/*[tir:begin] ref="./models/models.js" [tir:end]*/

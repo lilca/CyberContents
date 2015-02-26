@@ -1,0 +1,21 @@
+.light_label {
+	display 			: block;
+	border-radius		: 5px;
+	border				: 1px solid rgba(100,20,20,1);
+	background			: rgba(240,240,240,1);
+	width				: 300px;
+	text-align			: left;
+	color				: rgba(5,5,85,1);
+	padding				: 0px 5px 0px 5px;
+}
+.light_label[direction="horizontal"] {
+	float				: left;
+	height				: 100%;
+}
+.light_label[direction="horizontal"]:after {
+	float				: none;
+}
+.light_label[direction="vartical"] {
+	float				: none;
+	width				: 100%;
+}

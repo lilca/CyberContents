@@ -1,0 +1,45 @@
+* {
+	margin				: 0px;
+	padding				: 0px;
+	position				: relative;
+	-webkit-box-sizing		: border-box;
+	box-sizing			: border-box;
+	overflow				: hidden;
+}
+
+*[invisible="on"] {
+	visibility				: hidden;
+	position				: absolute;
+}
+
+*[scroll="x"] {
+	overflow-x			: auto;
+}
+
+*[scroll="y"] {
+	overflow-y			: auto;
+}
+
+*[scroll="xy"] {
+	overflow				: auto;
+}
+
+body {
+	color				: /*[tir:begin] ref="#[css.text.color]main" [tir:end]*/;
+	background-color		: /*[tir:begin] ref="#[css.background.color]main" [tir:end]*/;
+	overflow				: visible;
+}
+
+img[fill="on"] {
+	width				: 100%;
+	height				: 100%;
+}
+
+/*[tir:begin] ref="ybox/ybox.css" [tir:end]*/
+/*[tir:begin] ref="xbox/xbox.css" [tir:end]*/
+/*[tir:begin] ref="cell/cell.css" [tir:end]*/
+/*[tir:begin] ref="pane/pane.css" [tir:end]*/
+/*[tir:begin] ref="listitem/listitem.css" [tir:end]*/
+/*[tir:begin] ref="ele/ele.css" [tir:end]*/
+/*[tir:begin] ref="ark/ark.css" [tir:end]*/
+/*[tir:begin] ref="slide/slide.css" [tir:end]*/

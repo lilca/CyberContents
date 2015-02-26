@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang='ja'>
+	<head>
+		<meta charset='UTF-8'/>
+		<style type='text/css'>
+		<!--
+			<!--[tir:begin]	ref="./cssfilelist.css" [tir:end]-->
+		-->
+		</style>
+		<script type='text/javascript'>
+		<!--
+			<!--[tir:begin]	ref="./jsfilelist.js" [tir:end]-->
+		// -->
+		</script>
+		<title>
+			VictoryRoad
+		</title>
+	</head>
+	<body>
+		<slide scroll='x'>
+			<xbox size='rest'>　</xbox>
+			<xbox size='800'>
+				<ybox id='header' size='50'>
+					<!--[tir:begin]	ref="models/header/header.html" [tir:end]-->
+				</ybox>
+				<ybox size='50' >
+					<!--[tir:begin]	ref="models/navi/navi.html" [tir:end]-->
+				</ybox>
+				<ybox size='rest' >
+					<!--[tir:begin]	ref="models/contents/contents.html" [tir:end]-->
+				</ybox>
+				<ybox size='50' abyss='on'>
+					<!--[tir:begin]	ref="models/footer/footer.html" [tir:end]-->
+				</ybox>
+			</xbox>
+			<xbox size='rest'>　</xbox>
+		</slide>
+		<slide id='alert_dialog' invisible='on'>
+			<!--[tir:begin] ref="models/alert_dialog/alert_dialog.html" [tir:end]-->
+		</slide>
+	</body>
+</html>

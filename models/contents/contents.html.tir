@@ -1,0 +1,15 @@
+<pane id='tabpane0' invisible='on' scroll='y'>
+	<!--[tir:begin] ref="./tabpane0.html" [tir:end]-->
+</pane>
+<pane id='tabpane1' invisible='on' scroll='y'>
+	<!--[tir:begin] ref="./tabpane1.html" [tir:end]-->
+</pane>
+<pane id='tabpane2' invisible='on'>
+	<!--[tir:begin] ref="./tabpane2.html" [tir:end]-->
+</pane>
+<pane id='tabpane3' invisible='on' scroll='y'>
+	<!--[tir:begin] ref="./tabpane3.html" [tir:end]-->
+</pane>
+<pane id='tabpane4' invisible=''>
+	<!--[tir:begin] ref="./tabpane4.html" [tir:end]-->
+</pane>

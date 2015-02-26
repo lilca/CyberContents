@@ -1,0 +1,21 @@
+.label {
+	display 				: block;
+	border-radius			: 5px;
+	border				: 1px solid rgba(100,20,20,1);
+	background			: rgba(200,100,100,1);
+	width				: 300px;
+	text-align			: left;
+	color				: rgba(255,255,255,1);
+	padding				: 0px 5px 0px 5px;
+}
+.label[direction="horizontal"] {
+	float				: left;
+	height				: 100%;
+}
+.label[direction="horizontal"]:after {
+	float				: none;
+}
+.label[direction="vartical"] {
+	float				: none;
+	width				: 100%;
+}

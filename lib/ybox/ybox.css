@@ -1,0 +1,28 @@
+ybox {
+	display				: block;
+	width				: 100%;
+	float				: none;
+}
+
+ybox[abyss="on"]{
+	position				: absolute;
+	bottom				: 0px;
+}
+
+ybox[surface="round"] {
+	border-radius			: 12px 12px 12px 12px;
+	border				: 1px solid rgba(255,165,0,1);
+	background			: -webkit-gradient(linear, left top, left bottom, from(rgba(150,50,50,1.0)), to(rgba(75,25,25,1.0)));
+	background			: linear-gradient(rgba(150,50,50,1.0), rgba(75,25,25,1.0));
+}
+
+ybox[surface="rectangle"] {
+	border				: 1px solid rgba(255,165,0,1);
+	background			: -webkit-gradient(linear, left top, left bottom, from(rgba(150,50,50,1.0)), to(rgba(75,25,25,1.0)));
+	background			: linear-gradient(rgba(150,50,50,1.0), rgba(75,25,25,1.0));
+}
+
+ybox[switch="on"] {
+	background			: -webkit-gradient(linear, left top, left bottom, from(rgba(150,50,50,1.0)), to(rgba(75,25,25,1.0)));
+	background			: linear-gradient(rgba(150,50,50,1.0), rgba(75,25,25,1.0));	
+}
